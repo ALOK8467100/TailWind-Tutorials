@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Now we use Responsive design
+
+    Every utility class in Tailwind can be applied conditionally at different breakpoints.
+    which makes it a piece of cake to build complex responsive interfaces without ever leaving your HTML.
+
+    Five breakpoint bydefault
+    sm = 640px
+    md = 768px
+    lg = 1024px
+    xl = 1280px
+    2xl = 1536px
+    -->
+
+    <div class="mx-0 px-1 text-xs sm:text-sm md:text-base lg:text-xl bg-red-900 sm:bg-yellow-500 md:bg-indigo-500 lg:bg-green-500 lg:text-black xl:bg-blue-600 text-white">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iusto praesentium porro voluptates excepturi autem qui, est perspiciatis sunt maxime hic? Natus nesciunt nam, omnis magnam accusamus odio corporis aliquam.
+    </div>
+
+
+    <!-- 
+        If you’d like to apply a utility only when a specific breakpoint range is active, stack a responsive modifier like md with a max-* modifier to limit that style to a specific range:
+
+        max-sm min-width: 640px
+        max-md min-width: 768px
+        max-lg min-width: 1024px
+        max-xl min-width: 1280px
+        max-2x min-width: 1536px
+     -->
+</body>
+</html>
