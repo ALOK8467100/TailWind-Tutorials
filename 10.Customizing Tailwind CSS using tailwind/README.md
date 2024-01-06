@@ -86,7 +86,7 @@ spacing: {
 #### How to  customize it 
 
 > For customizing it we open our tailwind.config.js file which look like this.
-
+```
 @type {import('tailwindcss').Config}
 module.exports = {
   content: ["*"],
@@ -97,7 +97,7 @@ module.exports = {
   },
   plugins: [],
 }
-
+```
 > Inside theme:{ extend:{here we make our changes }} we make our changes.
 
 ```
