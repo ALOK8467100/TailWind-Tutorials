@@ -38,7 +38,7 @@
 ```
 "build": "vite build"
 ```
-> It's adding it's look like this,
+> After adding it's look like this,
 ```
 {
   "name": "5.creative-responsive-designs",
