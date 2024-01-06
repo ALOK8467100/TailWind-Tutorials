@@ -38,6 +38,31 @@
 ```
 "build": "vite build"
 ```
+> It's adding it's look like this,
+```
+{
+  "name": "5.creative-responsive-designs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0"
+  },
+  "dependencies": {
+    "vite": "^5.0.10"
+  }
+}
+
+```
 
 > After that go to **index.html** file and correct it as 
 style.css to /style.cc
